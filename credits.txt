@@ -1,0 +1,4 @@
+Resources:
+- background image by Andrew Kliatskyi, from unsplash.com;
+- text font: Quicksand, from Google Fonts;
+- clock font: Orbitron, from Google Fonts;

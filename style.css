@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+background-image: url(images/andrew-kliatskyi-9l_R8EBQ7-c-unsplash.jpg);
+background-size: cover;
+height: 100vh;
+color: #fff;
+font-family: 'Quicksand', sans-serif;
+
+}
+
+.device {
+    border: 3px inset rgba(34, 159, 231, 0.3); 
+    border-top: 3px ridge rgb(20, 93, 134, 0.7); 
+    border-right: 3px ridge rgba(36, 120, 168, 0.7); 
+    border-radius: 10px;
+    box-shadow: 0 0 30px 1px rgba(205, 243, 145, 0.2);
+    margin: 50px;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 65px;
+    text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+
+
+#meridiem{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.date{
+    display: flex;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+
+}
+
+.date span{
+    margin-right: 15px;
+}
+
